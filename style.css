@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.box{
+    border: 2px solid lightblue;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    width: 30vw;
+    height: 30vh;
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: steelblue;
+    font-size: 45px;
+}
+
+.button{
+    background-color: transparent;
+    color: steelblue;
+    border: 2px solid steelblue;
+    margin-top: 80px;
+    padding: 5px 10px;
+    font: bolder;
+    font-size: 25px;
+    border-radius: 5px;
+}
